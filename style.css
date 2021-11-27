@@ -1,0 +1,29 @@
+.slider h3,
+.slider h5{
+	text-shadow: 3px 3px 3px black;
+}
+.about{
+	padding-top: 5px;
+}
+.parallax-container{
+	height: 400px;
+}
+.parallax img{
+	filter: grayscale(1);
+	opacity: 1 !important;
+}
+.col img{
+	height: 220px;
+	padding-top: 50px;
+}
+.material-icons{
+	padding: 1px 0px;
+}
+section{
+	padding: 20px 0px;
+}
+footer{
+	padding: 10px 0px;
+}
+
+

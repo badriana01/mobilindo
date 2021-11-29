@@ -26,4 +26,35 @@ footer{
 	padding: 10px 0px;
 }
 
+.box{
+	width: 300px;
+	height: 400px;
+	border-radius: 10px;
+	position: relative;
+	background: #DED9C4;
+	transform-style: preserve-3d;
+}
 
+.tombol{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	background: #9D5C0D;
+	transform: translate3d(-50%, 0,100px);
+}
+.mobil{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 90px);
+	transition: 0.5s;
+	
+}
+
+.mobil:hover{
+	transform: translate3d(-50%, -50%, 90px) scale(1.2) rotate(-10deg);
+}
+
+.row{
+	margin-top: 50px;
+}
